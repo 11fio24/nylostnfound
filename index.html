@@ -103,24 +103,26 @@
             if (!/^[A-Z]$/.test(input1) || !/^[A-Z]$/.test(input2)) {
                 alert("Please enter two letters (A-Z).");
                 return;
+                
             }
+
 
             // Combining two letters into one pair
             let letterPair = input1 + input2;
 
-            if (letterPair === "AA" || letterPair === "CE" || letterPair === "DF" || letterPair === "QD" || letterPair === "SS"|| letterPair === "ZK") {
+            if (letterPair === "AA" || letterPair === "AB" || letterPair === "DF" || letterPair === "QD" || letterPair === "SS"|| letterPair === "ZK") {
                 imgElement.src = "images/subway-mess.JPG";
 
             } else if (letterPair === "AC" || letterPair === "DE" || letterPair === "CF" || letterPair === "XT"|| letterPair === "RP"|| letterPair === "UV") {
                 imgElement.src = "images/tourist-lost.JPG";
 
-            } else if (letterPair === "BG" || letterPair === "LM" || letterPair === "XR" || letterPair === "VN"|| letterPair === "WQ"|| letterPair === "OY") {
+            } else if (letterPair === "BG" || letterPair === "LM" || letterPair === "XR" || letterPair === "VN"|| letterPair === "WQ"|| letterPair === "OY"|| letterPair === "CA") {
                 imgElement.src = "images/college-student.JPG";
 
             } else if (letterPair === "AD" || letterPair === "BR" || letterPair === "GV" || letterPair === "YK"|| letterPair === "TN"|| letterPair === "KC") {
                 imgElement.src = "images/bodega-mess.JPG";
 
-            } else if (letterPair === "AE" || letterPair === "JP" || letterPair === "UY" || letterPair === "ST"|| letterPair === "MF"|| letterPair === "CW") {
+            } else if (letterPair === "AE" || letterPair === "JP" || letterPair === "UY" || letterPair === "ST"|| letterPair === "MF"|| letterPair === "CW"|| letterPair === "BA") {
                 imgElement.src = "images/artist-lost.JPG";
 
             } else if (letterPair === "AF" || letterPair === "QS" || letterPair === "NT" || letterPair === "WX"|| letterPair === "HL"|| letterPair === "OM") {
@@ -154,7 +156,7 @@
                 imgElement.src = "images/love-letter.JPG";
             }
             }
-            
+
     </script>
 
 </body>
