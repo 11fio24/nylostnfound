@@ -100,10 +100,6 @@
             imgElement.style.display = "block";
 
 
-            if (!/^[A-Z]$/.test(input1) || !/^[A-Z]$/.test(input2)) {
-                alert("Please enter two letters (A-Z).");
-                return;
-            }
             // Combining two letters into one pair
             let letterPair = input1 + input2;
 
@@ -152,7 +148,14 @@
             } else if (letterPair === "AO" || letterPair === "MF" || letterPair === "RS" || letterPair === "CW"|| letterPair === "WX"|| letterPair === "NT") {
                 imgElement.src = "images/love-letter.JPG";
             }
+            if  (index >= 0 && index < images.length) {
+                imgElement.src = images[index];
+                imgElement.style.display = "block";
+            } else {imgElement.src = "image/error-image.JPG";
+
             }
+            }
+        
 
     </script>
 
